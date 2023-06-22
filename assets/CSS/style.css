@@ -298,3 +298,28 @@ footer{                     /* properties of footer */
     background-image: url('../images/about-us-small-main-image.gif');
     }
 }
+.image-row {                    /* Contain the images in the about-us section */
+    text-align: center;
+}
+.image-box {                    /* Contains each image in the about us section */
+    width: 23%;
+    padding: 1%;
+    margin: .5%;
+    background: rgb(215, 181, 133);
+    display: inline-block;
+    font-size: 0; /* fixes bottom padding */
+}
+.image-box img {                    /* set the properties of image inside the .image-box class */
+    max-width: 100%;
+}
+@media (max-width:1200px){                     /* it changes the properties of the .image-box class when the screen size is less than 1200px */
+    .image-box{
+        float:none;
+        width:60%;
+        margin:auto;
+        margin: .5%;
+        background: rgb(215, 181, 133);
+        display: inline-block;
+        font-size: 0; /* fixes bottom padding */
+    }
+}
