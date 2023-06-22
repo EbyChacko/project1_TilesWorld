@@ -100,3 +100,13 @@ a{
 .insta-image a:hover img{                         /* to change the colour of the insta icon */
     content:url('../images/Insta-C.gif');
 }
+.welcome{                                   /* used as the main container of the welcome paragraph*/
+    text-align: center;
+    margin-left:10%;
+    width:80%;
+    display:inline-block;
+}
+.welcome-para{                          /* make the paragraph justify and line height 150% */
+    text-align: justify;
+    line-height: 150%;
+}
