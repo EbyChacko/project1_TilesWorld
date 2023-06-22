@@ -258,3 +258,24 @@ footer{                     /* properties of footer */
     background-image: url('../images/collection-main-small-image.gif');
     }
 }
+.gallery {                     /* set the properties of the each gallery section in collection */
+    margin: 10px;
+    border: 2px solid #940f87;
+    width: 250px;
+    border-radius: 20px;
+    display:inline-block;
+    text-align: center;
+  }
+.gallery:hover {                     /* it changes the properties of the .gallery class when the mouse hover */
+    border: 2px solid #fb05ff;
+    box-shadow: #2b022c;
+  }
+.gallery img {                     /* set the property of image in the gallery */
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+.description {                     /* set the properties of the Description below each image in the gallery */
+    padding: 15px;
+    text-align: center;
+  }
