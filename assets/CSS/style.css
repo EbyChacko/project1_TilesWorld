@@ -110,3 +110,49 @@ a{
     text-align: justify;
     line-height: 150%;
 }
+.our-services{                         /* container div of  the whole services */
+    display:inline-block;
+    text-align: center;
+    width:100%;
+    background-color:aliceblue;
+    /* margin-left:16%; */
+    margin: auto;
+    
+}
+.servises{                         /* container div of all the services */
+    display:inline-block;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+}
+.service{                           /* Container of the each service */
+    width:250px;
+    height:650px;
+    /* background-color:antiquewhite; */
+    float:left;
+    margin-left:30px;
+    margin-bottom:20px ;
+    padding:30px;
+    /* border-radius: 30px;
+    border-style: dotted;
+    border-color: #820687; */
+    text-align: center;
+}
+@media (max-width:1200px){                     /* it changes the properties of the .service class when the screen size is less than 1200px */
+    .service{
+        float:none;
+        width:80%;
+        margin:auto;
+        height:max-content;
+        margin-bottom: 20px;
+    }
+}
+@media(max-width:1200px){                     /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
+    .service > img{
+        width:60%;
+    }
+}
+.our-services-para{                     /* set the text align and line height of Service paragraphs */
+    text-align: justify;
+    line-height: 150%;
+}
