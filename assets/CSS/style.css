@@ -1,0 +1,102 @@
+body {
+    margin:0;
+	font-family:'Varela Round', 'Arial Narrow', Arial, sans-serif; /* sets The whole body font-family */
+}
+.home-image{ /* Home page main image */
+    width:100%;
+    height:41.5vw;
+	background: center 100% /cover no-repeat;
+    text-align:center;
+    background-color: white;
+    background-image: url('../images/Home-Main.gif');
+    /* background-attachment:fixed; */
+}
+@media (max-width:600px){            /* Home page main image in a small screen*/
+    .header-image{
+        width:100%;
+    height:60vh;
+	background: center 100% /cover no-repeat;
+    text-align:center;
+    background-color: white;
+    background-image: url('../images/home page with heading1.jpg');
+    }
+}
+.pages{
+    text-align: center;
+    background-color: #58188b;
+}
+.links{                             /*  set the size and background color of the page links */
+   display:inline-block;
+    padding:1rem;
+    text-align:center;
+    background-color:blueviolet;
+    width:100px;
+    margin:2px;
+}
+.selected-link{             /*  set the  background color of the page links */
+    background-color: #f052f5;
+}
+.selected-link > a{
+    color:#4e0751
+}
+.selected-link >a:hover{
+    color:#4e0751;
+}
+a:hover{
+    color:#fa5fff;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-family:'Comfortaa', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    text-align: center;
+    color:#820687;
+}
+h3{
+    color:#820687;
+    text-align: center;
+}
+.border{
+    padding:1%;
+    border-color: #820687;
+    border-style: dotted;
+    border-width: 2px;
+}
+a{
+    text-decoration: none;
+    color:white;
+	padding: 10px 0 10px;
+	text-align:center;
+    font-size: large;
+
+}
+.social-media{                         /* container div of the social media icons */
+    float:right;
+    text-align: center;
+    padding-right:10%;
+    padding-top:30px;
+}
+.youtube-image{
+    float:left;
+    padding: 15px;
+}
+.facebook-image{
+    float:left;
+    padding: 15px;
+}
+.insta-image{
+    float:left;
+    padding: 15px;
+}
+.youtube-image a:hover img{                         /* to change the colour of the youtube icon */
+    content:url('../images/Youtube-c.gif');
+}
+
+.facebook-image a:hover img{                         /* to change the colour of the facebook icon */
+    content:url('../images/Facebook-c.gif');
+}
+.insta-image a:hover img{                         /* to change the colour of the insta icon */
+    content:url('../images/Insta-C.gif');
+}
