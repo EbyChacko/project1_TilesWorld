@@ -183,3 +183,59 @@ a{
     width:auto;
     margin:auto;
 }
+.contact-div{                     /* container of the contacts details */
+    display:inline-block;
+    background-image:linear-gradient(to bottom, #820687, #2b022c) ;
+    width:100%;
+    color:white;
+    padding-top:1rem;
+    /* padding-left:1.5rem; */
+
+}
+.contact > p{                     /* properties of the p tag in the contact details */
+    line-height: 200%;
+
+}
+.contact{                     /* container of each contact type */
+    /* background-color:antiquewhite; */
+    width: 20%;
+    height:250px;
+    /* border-color: #fa5fff;
+    border-style: dotted;
+    border-radius: 25px; */
+    padding:30px 0 30px 10px;
+    text-align:center;
+    margin: 1.2rem;
+    float:left;
+}
+@media(max-width:1200px){                     /* it changes the properties of the .contact class when the screen size is less than 1200px */
+    .contact{
+        width:40%;
+    }
+}
+@media(max-width:1000px){                     /* it changes the properties of the .contact class when the screen size is less than 1000px */
+    .contact{
+        float:none;
+        width:90%;
+        height:max-content;
+    }
+}
+.contact > h3{
+    color:#fa5fff;
+    font-family:'Comfortaa', 'Arial Narrow', Arial, sans-serif;
+}
+#map-wrapper {                     /* container of the map */
+    height: 300px;
+    margin-bottom: 60px;
+}
+#map-wrapper > h2{
+    text-align: center;
+}
+footer{                     /* properties of footer */
+    background-color:#58188b;
+    height:65px;
+    width:100%;
+    text-align:center;
+    padding-top: 8px;
+    color:white;
+}
