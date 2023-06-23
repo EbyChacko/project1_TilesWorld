@@ -298,6 +298,13 @@ footer{                     /* properties of footer */
     background-image: url('../images/about-us-small-main-image.gif');
     }
 }
+.about-us1{                    /* contains the paragraph of about us */
+    text-align: center;
+    height:fit-content;
+    display:inline-block;
+    margin: auto;
+    /* padding:2%; */
+}
 .image-row {                    /* Contain the images in the about-us section */
     text-align: center;
 }
