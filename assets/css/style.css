@@ -91,14 +91,14 @@ a{
     padding: 15px;
 }
 .youtube-image a:hover img{                         /* to change the colour of the youtube icon */
-    content:url('../images/Youtube-c.gif');
+    content:url('../images/youtube-c.gif');
 }
 
 .facebook-image a:hover img{                         /* to change the colour of the facebook icon */
-    content:url('../images/Facebook-c.gif');
+    content:url('../images/facebook-c.gif');
 }
 .insta-image a:hover img{                         /* to change the colour of the insta icon */
-    content:url('../images/Insta-C.gif');
+    content:url('../images/insta-C.gif');
 }
 .welcome{                                   /* used as the main container of the welcome paragraph*/
     text-align: center;
@@ -346,7 +346,7 @@ footer{                     /* properties of footer */
 	background: center 100% /cover no-repeat;
     text-align:center;
     background-color: white;
-    background-image: url('../images/Contact_small-main-image.gif');
+    background-image: url('../images/contact_small-main-image.gif');
     }
 }
 .contact-form{                     /* properties of the contact form section container */
