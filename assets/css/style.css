@@ -1,4 +1,5 @@
 body {
+    text-align: center;
     margin: 0;
     font-family: 'Varela Round', 'Arial Narrow', Arial, sans-serif;
     /* sets The whole body font-family */
@@ -133,8 +134,7 @@ a {
 .welcome {
     /* used as the main container of the welcome paragraph*/
     text-align: center;
-    margin-left: 10%;
-    width: 80%;
+    width: 90%;
     display: inline-block;
 }
 
@@ -150,8 +150,7 @@ a {
     text-align: center;
     width: 100%;
     background-color: aliceblue;
-    /* margin-left:16%; */
-    margin: auto;
+    margin:0 auto;
 
 }
 
@@ -172,26 +171,6 @@ a {
     margin-bottom: 20px;
     padding: 30px;
     text-align: center;
-}
-
-@media (max-width:1200px) {
-
-    /* it changes the properties of the .service class when the screen size is less than 1200px */
-    .service {
-        float: none;
-        width: 80%;
-        margin: auto;
-        height: max-content;
-        margin-bottom: 20px;
-    }
-}
-
-@media(max-width:1200px) {
-
-    /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
-    .service>img {
-        width: 60%;
-    }
 }
 
 .our-services-para {
@@ -284,7 +263,9 @@ a {
 #map-wrapper {
     /* container of the map */
     height: 300px;
-    margin-bottom: 60px;
+    width: 95%;
+    margin: 0 auto;
+    margin-bottom: 100px;
 }
 
 #map-wrapper>h2 {
@@ -450,7 +431,6 @@ footer {
     text-align: center;
     margin: auto;
     padding: 50px;
-    ;
 }
 
 fieldset {
@@ -465,6 +445,7 @@ fieldset {
     height: 400px;
     display: inline-block;
     text-align: center;
+    width: auto;
 }
 
 #name-field {
@@ -535,7 +516,26 @@ fieldset {
 
 .customer-care {
     /* set the width of the customer care image in the contact page  */
-    width: 50%;
+    width: 48%;
+    margin: 0 auto;
+}
+
+
+@media (max-width:1200px) {
+
+    /* it changes the properties of the .service class when the screen size is less than 1200px */
+    .service {
+        width: fit-content;
+        float: none;
+        margin: 0 auto;
+        height: max-content;
+        margin-bottom: 20px;
+    }
+
+    /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
+    .service>img {
+        width: 50%;
+    }
 }
 
 @media(max-width:800px) {
