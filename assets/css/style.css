@@ -95,25 +95,25 @@ a {
 
 .social-media {
     /* container div of the social media icons */
-    float: right;
     text-align: center;
-    padding-right: 10%;
-    padding-top: 30px;
+    margin:0 auto;
+    float:right;
+    padding-right:40px;
 }
 
 .youtube-image {
     float: left;
-    padding: 15px;
+    padding:5px 15px 0 15px;
 }
 
 .facebook-image {
     float: left;
-    padding: 15px;
+    padding:5px 15px 0 15px;
 }
 
 .insta-image {
     float: left;
-    padding: 15px;
+    padding:5px 15px 0 15px;
 }
 
 .youtube-image a:hover img {
@@ -275,11 +275,15 @@ a {
 footer {
     /* properties of footer */
     background-color: #58188b;
-    height: 65px;
+    height: 55px;
     width: 100%;
     text-align: center;
     padding-top: 8px;
     color: white;
+}
+footer > p{
+    float:left;
+    padding-left:50px;
 }
 
 .collection-main-image {
