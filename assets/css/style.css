@@ -16,19 +16,6 @@ body {
 
 }
 
-@media (max-width:600px) {
-
-    /* Home page main image in a small screen*/
-    .home-image {
-        width: 100%;
-        height: 60vh;
-        background: center 100% /cover no-repeat;
-        text-align: center;
-        background-color: white;
-        background-image: url('../images/home page with heading1.jpg');
-    }
-}
-
 .pages {
     text-align: center;
     background-color: #58188b;
@@ -525,6 +512,16 @@ fieldset {
 
 @media (max-width:600px) {
 
+    /* Home page main image in a small screen*/
+    .home-image {
+        width: 100%;
+        height: 60vh;
+        background: center 100% /cover no-repeat;
+        text-align: center;
+        background-color: white;
+        background-image: url('../images/home page with heading1.jpg');
+    }
+
     /* contact page main image in a small screen */
     .contact-main-image {
         width: 100%;
@@ -554,12 +551,21 @@ fieldset {
         background-color: white;
         background-image: url('../images/collection-main-small-image.gif');
     }
+    .links {
+        /*  set the size and background color of the page links */
+        width: 17%;
+        padding: 10px;
+
+    }
+    .links > a {
+        font-size: 70%;
+    }
 
     .contact-form {
         /* properties of the contact form section container */
         text-align: center;
         width: 70%;
-        padding-left:1%;
+        padding-left: 1%;
     }
 
     .fields {
@@ -603,14 +609,14 @@ fieldset {
     }
 
     footer>p {
-        padding:0;
+        padding: 0;
         float: none;
-        font-size:small;
+        font-size: small;
     }
 
     .social-media {
         float: none;
-        margin:0 auto;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         flex-wrap: wrap;
@@ -620,37 +626,41 @@ fieldset {
         display: inline-block;
         text-align: center;
         float: none;
-        padding-left:10%;
-        padding-top:25px;
+        padding-left: 10%;
+        padding-top: 25px;
     }
 
     .facebook-image {
         display: inline-block;
         text-align: center;
         float: none;
-        padding-top:25px;
+        padding-top: 25px;
     }
+
     .insta-image {
         display: inline-block;
         text-align: center;
         float: none;
-        padding-top:25px;
+        padding-top: 25px;
     }
 }
-@media (max-width:400px){
+
+@media (max-width:400px) {
     .youtube-image {
-        padding-left:20%;
+        padding-left: 20%;
     }
+
     .contact-form {
         /* properties of the contact form section container */
         text-align: center;
         width: 80%;
     }
+
     .block-label {
         /* properties of submit & reset buttons in the form */
         width: 90px;
         padding: 10px;
-        font-size:70%;
+        font-size: 70%;
     }
 
 }
