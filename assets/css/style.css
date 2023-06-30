@@ -505,7 +505,6 @@ fieldset {
         width: 60%;
         margin: auto;
         margin: .5%;
-        background: rgb(215, 181, 133);
         display: inline-block;
         font-size: 0;
         /* fixes bottom padding */
