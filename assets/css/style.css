@@ -91,6 +91,22 @@ a {
     float: right;
     padding-right: 40px;
 }
+.icon{
+    width:30px;
+}
+.contact-icon{
+    width:70px;
+}
+.brand-logo-image{
+    height:30px;
+}
+.service-image{
+    width:250px;
+}
+.gallery-image{
+    width:600;
+    height:400;
+}
 
 .youtube-image {
     float: left;
@@ -143,6 +159,14 @@ a {
     background-color: aliceblue;
     margin: 0 auto;
 
+}
+.our-specialities{
+    /* container div of  the whole specialities */
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    background-color:rgb(230, 230, 230);
+    margin: 0 auto;
 }
 
 .services {
@@ -330,7 +354,7 @@ footer>p {
     width: 23%;
     padding: 1%;
     margin: .5%;
-    background: rgb(215, 181, 133);
+    background: rgb(255, 208, 170);
     display: inline-block;
     font-size: 0;
     /* fixes bottom padding */
@@ -551,13 +575,15 @@ fieldset {
         background-color: white;
         background-image: url('../images/collection-main-small-image.gif');
     }
+
     .links {
         /*  set the size and background color of the page links */
         width: 17%;
         padding: 10px;
 
     }
-    .links > a {
+
+    .links>a {
         font-size: 70%;
     }
 
@@ -643,10 +669,15 @@ fieldset {
         float: none;
         padding-top: 25px;
     }
-        /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
-        .service>img {
-            width: 80%;
-        }
+
+    /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
+    .service>img {
+        width: 80%;
+    }
+
+    #question {
+        font-size: 200%;
+    }
 }
 
 @media (max-width:400px) {
@@ -666,9 +697,13 @@ fieldset {
         padding: 10px;
         font-size: 70%;
     }
-        /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
-        .service>img {
-            width: 100%;
-        }
 
+    /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
+    .service>img {
+        width: 100%;
+    }
+
+    #question {
+        font-size: 150%;
+    }
 }
