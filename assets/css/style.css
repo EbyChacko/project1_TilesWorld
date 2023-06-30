@@ -89,21 +89,27 @@ a {
     text-align: center;
     margin: 0 auto;
     float: right;
+    padding-top: 5px;
     padding-right: 40px;
 }
 .icon{
+    /* social media icons */
     width:30px;
 }
 .contact-icon{
+    /* contact icons */
     width:70px;
 }
 .brand-logo-image{
+    /* brand logos size */
     height:30px;
 }
 .service-image{
+    /* service images */
     width:250px;
 }
 .gallery-image{
+    /* gallery images size */
     width:600;
     height:400;
 }
@@ -233,7 +239,7 @@ a {
     width: 100%;
     color: white;
     padding-top: 1rem;
-
+    height: max-content;
 }
 
 .contact>p {
@@ -245,11 +251,11 @@ a {
 .contact {
     /* container of each contact type */
     width: 20%;
-    height: 250px;
     padding: 30px 0 30px 10px;
     text-align: center;
     margin: 1.2rem;
     float: left;
+    height: max-content;
 }
 
 
@@ -331,10 +337,7 @@ footer>p {
     text-align: center;
     background-color: white;
     background-image: url('../images/about-us-main.gif');
-    /* background-attachment:fixed; */
 }
-
-
 
 .about-us1 {
     /* contains the paragraph of about us */
@@ -374,7 +377,6 @@ footer>p {
     text-align: center;
     background-color: white;
     background-image: url('../images/contact-main.gif');
-    /* background-attachment:fixed; */
 }
 
 
@@ -383,7 +385,6 @@ footer>p {
     width: 30%;
     margin: 0 auto;
     padding: 4% 10% 4% 10%;
-    /* float:left; */
     text-align: inherit;
 }
 
