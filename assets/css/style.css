@@ -119,7 +119,7 @@ a {
 
 .insta-image a:hover img {
     /* to change the colour of the insta icon */
-    content: url('../images/insta-C.gif');
+    content: url('../images/insta-c.gif');
 }
 
 .welcome {
