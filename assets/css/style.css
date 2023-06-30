@@ -93,27 +93,31 @@ a {
 
 }
 
+#question {
+    font-size: 300%;
+}
+
 .social-media {
     /* container div of the social media icons */
     text-align: center;
-    margin:0 auto;
-    float:right;
-    padding-right:40px;
+    margin: 0 auto;
+    float: right;
+    padding-right: 40px;
 }
 
 .youtube-image {
     float: left;
-    padding:5px 15px 0 15px;
+    padding: 5px 15px 0 15px;
 }
 
 .facebook-image {
     float: left;
-    padding:5px 15px 0 15px;
+    padding: 5px 15px 0 15px;
 }
 
 .insta-image {
     float: left;
-    padding:5px 15px 0 15px;
+    padding: 5px 15px 0 15px;
 }
 
 .youtube-image a:hover img {
@@ -150,7 +154,7 @@ a {
     text-align: center;
     width: 100%;
     background-color: aliceblue;
-    margin:0 auto;
+    margin: 0 auto;
 
 }
 
@@ -237,23 +241,6 @@ a {
     float: left;
 }
 
-@media(max-width:1200px) {
-
-    /* it changes the properties of the .contact class when the screen size is less than 1200px */
-    .contact {
-        width: 40%;
-    }
-}
-
-@media(max-width:1000px) {
-
-    /* it changes the properties of the .contact class when the screen size is less than 1000px */
-    .contact {
-        float: none;
-        width: 90%;
-        height: max-content;
-    }
-}
 
 .contact>h3 {
     color: #fa5fff;
@@ -281,9 +268,10 @@ footer {
     padding-top: 8px;
     color: white;
 }
-footer > p{
-    float:left;
-    padding-left:50px;
+
+footer>p {
+    float: left;
+    padding-left: 50px;
 }
 
 .collection-main-image {
@@ -294,19 +282,6 @@ footer > p{
     text-align: center;
     background-color: white;
     background-image: url('../images/collection-main.gif');
-}
-
-@media (max-width:600px) {
-
-    /* collection page main image in a small screen */
-    .collection-main-image {
-        width: 100%;
-        height: 60vh;
-        background: center 100% /cover no-repeat;
-        text-align: center;
-        background-color: white;
-        background-image: url('../images/collection-main-small-image.gif');
-    }
 }
 
 .gallery {
@@ -348,18 +323,7 @@ footer > p{
     /* background-attachment:fixed; */
 }
 
-@media (max-width:600px) {
 
-    /* about us page main image in a small screen */
-    .about-us-main-image {
-        width: 100%;
-        height: 60vh;
-        background: center 100% /cover no-repeat;
-        text-align: center;
-        background-color: white;
-        background-image: url('../images/about-us-small-main-image.gif');
-    }
-}
 
 .about-us1 {
     /* contains the paragraph of about us */
@@ -390,20 +354,6 @@ footer > p{
     max-width: 100%;
 }
 
-@media (max-width:1200px) {
-
-    /* it changes the properties of the .image-box class when the screen size is less than 1200px */
-    .image-box {
-        float: none;
-        width: 60%;
-        margin: auto;
-        margin: .5%;
-        background: rgb(215, 181, 133);
-        display: inline-block;
-        font-size: 0;
-        /* fixes bottom padding */
-    }
-}
 
 .contact-main-image {
     /* contact page main image */
@@ -416,25 +366,21 @@ footer > p{
     /* background-attachment:fixed; */
 }
 
-@media (max-width:600px) {
 
-    /* contact page main image in a small screen */
-    .contact-main-image {
-        width: 100%;
-        height: 60vh;
-        background: center 100% /cover no-repeat;
-        text-align: center;
-        background-color: white;
-        background-image: url('../images/contact_small-main-image.gif');
-    }
+.customer-care {
+    /* set the width of the customer care image in the contact page  */
+    width: 30%;
+    margin: 0 auto;
+    padding: 4% 10% 4% 10%;
+    /* float:left; */
+    text-align: inherit;
 }
 
 .contact-form {
     /* properties of the contact form section container */
     display: inline-block;
     text-align: center;
-    margin: auto;
-    padding: 50px;
+    padding: 5% 50px 50px 50px;
 }
 
 fieldset {
@@ -445,9 +391,7 @@ fieldset {
 .fields {
     /* container of the all form elements */
     padding: 30px;
-    margin-right: 40px;
     height: 400px;
-    display: inline-block;
     text-align: center;
     width: auto;
 }
@@ -499,6 +443,7 @@ fieldset {
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -518,13 +463,6 @@ fieldset {
 
 }
 
-.customer-care {
-    /* set the width of the customer care image in the contact page  */
-    width: 48%;
-    margin: 0 auto;
-}
-
-
 @media (max-width:1200px) {
 
     /* it changes the properties of the .service class when the screen size is less than 1200px */
@@ -540,6 +478,41 @@ fieldset {
     .service>img {
         width: 50%;
     }
+
+    .customer-care {
+        /* set the width of the customer care image in the contact page  */
+        width: 60%;
+        margin: 0 auto;
+        padding: 10%;
+        float: none;
+    }
+
+    /* it changes the properties of the .image-box class when the screen size is less than 1200px */
+    .image-box {
+        float: none;
+        width: 60%;
+        margin: auto;
+        margin: .5%;
+        background: rgb(215, 181, 133);
+        display: inline-block;
+        font-size: 0;
+        /* fixes bottom padding */
+    }
+
+    /* it changes the properties of the .contact class when the screen size is less than 1200px */
+    .contact {
+        width: 40%;
+    }
+}
+
+@media(max-width:1000px) {
+
+    /* it changes the properties of the .contact class when the screen size is less than 1000px */
+    .contact {
+        float: none;
+        width: 90%;
+        height: max-content;
+    }
 }
 
 @media(max-width:800px) {
@@ -548,4 +521,136 @@ fieldset {
     .customer-care {
         width: 80%;
     }
+}
+
+@media (max-width:600px) {
+
+    /* contact page main image in a small screen */
+    .contact-main-image {
+        width: 100%;
+        height: 60vh;
+        background: center 100% /cover no-repeat;
+        text-align: center;
+        background-color: white;
+        background-image: url('../images/contact_small-main-image.gif');
+    }
+
+    /* about us page main image in a small screen */
+    .about-us-main-image {
+        width: 100%;
+        height: 60vh;
+        background: center 100% /cover no-repeat;
+        text-align: center;
+        background-color: white;
+        background-image: url('../images/about-us-small-main-image.gif');
+    }
+
+    /* collection page main image in a small screen */
+    .collection-main-image {
+        width: 100%;
+        height: 60vh;
+        background: center 100% /cover no-repeat;
+        text-align: center;
+        background-color: white;
+        background-image: url('../images/collection-main-small-image.gif');
+    }
+
+    .contact-form {
+        /* properties of the contact form section container */
+        text-align: center;
+        width: 70%;
+        padding-left:1%;
+    }
+
+    .fields {
+        /* container of the all form elements */
+        /* height: 400px; */
+        width: 90%;
+    }
+
+    #name-field {
+        /* set the properties of name field in contact */
+        width: 90%;
+    }
+
+    #email-field {
+        /* set the properties of email field in contact */
+        width: 90%;
+    }
+
+    #subject-field {
+        /* set the properties of subject field in contact */
+        width: 90%;
+    }
+
+    #phone-field {
+        /* set the properties of phone number field in contact */
+        width: 90%;
+    }
+
+    #feedback {
+        width: 90%;
+    }
+
+    .block-label {
+        /* properties of submit & reset buttons in the form */
+        width: 120px;
+        padding: 10px;
+    }
+
+    footer {
+        height: 140px;
+    }
+
+    footer>p {
+        padding:0;
+        float: none;
+        font-size:small;
+    }
+
+    .social-media {
+        float: none;
+        margin:0 auto;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .youtube-image {
+        display: inline-block;
+        text-align: center;
+        float: none;
+        padding-left:10%;
+        padding-top:25px;
+    }
+
+    .facebook-image {
+        display: inline-block;
+        text-align: center;
+        float: none;
+        padding-top:25px;
+    }
+    .insta-image {
+        display: inline-block;
+        text-align: center;
+        float: none;
+        padding-top:25px;
+    }
+}
+@media (max-width:400px){
+    .youtube-image {
+        padding-left:20%;
+    }
+    .contact-form {
+        /* properties of the contact form section container */
+        text-align: center;
+        width: 80%;
+    }
+    .block-label {
+        /* properties of submit & reset buttons in the form */
+        width: 90px;
+        padding: 10px;
+        font-size:70%;
+    }
+
 }
