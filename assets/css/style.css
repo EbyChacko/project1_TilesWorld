@@ -145,7 +145,7 @@ a {
 
 }
 
-.servises {
+.services {
     /* container div of all the services */
     display: inline-block;
     justify-content: center;
@@ -643,6 +643,10 @@ fieldset {
         float: none;
         padding-top: 25px;
     }
+        /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
+        .service>img {
+            width: 80%;
+        }
 }
 
 @media (max-width:400px) {
@@ -662,5 +666,9 @@ fieldset {
         padding: 10px;
         font-size: 70%;
     }
+        /* it changes the properties of the image in the .service class when the screen size is less than 1200px */
+        .service>img {
+            width: 100%;
+        }
 
 }
