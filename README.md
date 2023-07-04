@@ -13,9 +13,9 @@ To access our website, simply visit https://ebychacko.github.io/project1_TilesWo
 ## Features 
 ### Overall
 
-it has a bright design and the colour scheme is good and consistent across every page
+it has a unique bright design and the colour scheme is gives a good feel for the users and the design and color scheme is consistent across every page.
 
-The website consists of 4 pages.
+The website consists of __4 pages__.
 
 All these pages have overall same design and contains the following features in common.
 
@@ -105,7 +105,7 @@ After the main image on the center of the page there is a navigation bar with 4 
 - HTML
   - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Febychacko.github.io%2Fproject1_TilesWorld%2F)
 - CSS
-  - No errors were found when passing through the official [(W3C Css validator]()
+  - No errors were found when passing through the official [(W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Febychacko.github.io%2Fproject1_TilesWorld%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
 
 
@@ -127,20 +127,11 @@ To deploy a project I had to:
 
 * To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
 
-* Ideas and knowledge library:
-
-    * [css-tricks.com](https://css-tricks.com/)
-
-    * [getbootstrap.com/docs](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-        I used code for navbar, jumbotron and card from Bootstrap.
-
 ### Code
 
-* Links transition: [CSS transition Property](https://www.w3schools.com/cssref/css3_pr_transition.asp)
-* Bootstrap: [Kitchen sink](https://getbootstrap.com/docs/4.0/components/card/#kitchen-sink)
-* Bootstrap: [Burger menu](https://getbootstrap.com/docs/4.5/components/navbar/#text)
-* Bootstrap: [Jumbotron](https://getbootstrap.com/docs/4.5/components/jumbotron/)
-* Bootstrap: [Form](https://getbootstrap.com/docs/4.5/components/forms/)
+* [Perplexity AI](https://www.perplexity.ai/)
+* [chatGPT](https://chat.openai.com/)
+
 ### Content:
 *  welcome paragraph & About us :  [celtictiles.ie](https://www.celtictiles.ie/)
 *  welcome paragraph & About us :  [PAM Tiles](https://pamtilespark.com/)
@@ -196,6 +187,7 @@ To deploy a project I had to:
 
 - About us section
 <img src="assets/images/readme-images/about-us-paragraph.jpeg" alt="About us section screenshot">
+
 - Specialities section
 <img src="assets/images/readme-images/specialities.jpg" alt="Specialities section screenshot">
 
