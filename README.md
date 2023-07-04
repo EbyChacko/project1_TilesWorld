@@ -36,7 +36,8 @@ After the main image on the center of the page there is a navigation bar with 4 
 - About Us
 - Contact
 
-![Nav Bar]()
+
+<img src="assets/images/readme-images/navigation-bar.jpg" alt="Navigation screenshot">
 
 - __Home__
 
@@ -48,14 +49,10 @@ After the main image on the center of the page there is a navigation bar with 4 
   - Contact: This section provides the user all kinds of contact details including mobile number, mail id and address. I this section inclided the working hours as well.
   - Map : This Section included a map if the customer wants to locate the Tile's World showroom.
 
-![Club Ethos](https://github.com/lucyrush/readme-template/blob/master/media/love_running_ethos.png)
-
 - __Collections__
 
   - This section will allow the user to see the collections available in the Tile's World in the form of images. If the user wants to view the image large, they can just click on the image and the image will open in a deferent tab so that they can view it large.
   - This section will be updated as the collections in the Tile's World changes when the  new collection arrives. 
-
-![Meetup Times](https://github.com/lucyrush/readme-template/blob/master/media/love_running_times.png)
 
 - __About Us__ 
 
@@ -63,14 +60,10 @@ After the main image on the center of the page there is a navigation bar with 4 
   - Our Apecialities : I this section the user can find the main specialities of the tile's world and its team.
   - In this page we included the same our brands section and contact section.
 
-![Footer](https://github.com/lucyrush/readme-template/blob/master/media/love_running_footer.png)
-
 - __Contact__
 
   - This page will allow the user to get sThe contact details of the Tile's world as well they can send their contact details and some messages to the Tile's world.
   - The user will be asked to submit their full name, mobile number and email address. 
-
-![Sign Up](https://github.com/lucyrush/readme-template/blob/master/media/love_running_signup.png)
 
 ## Technologies used
 
@@ -110,9 +103,9 @@ After the main image on the center of the page there is a navigation bar with 4 
 ### Validator Testing 
 
 - HTML
-  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Fcode-institute-org.github.io%2Flove-running-2.0%2Findex.html)
+  - No errors were returned when passing through the official [W3C validator](https://validator.w3.org/nu/?doc=https%3A%2F%2Febychacko.github.io%2Fproject1_TilesWorld%2F)
 - CSS
-  - No errors were found when passing through the official [(Jigsaw) validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fvalidator.w3.org%2Fnu%2F%3Fdoc%3Dhttps%253A%252F%252Fcode-institute-org.github.io%252Flove-running-2.0%252Findex.html&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en#css)
+  - No errors were found when passing through the official [(W3C Css validator]()
 
 
 
@@ -166,3 +159,47 @@ To deploy a project I had to:
 
 * [freepik.com](https://freepik.com/)
 
+## Screen Shots
+
+### __Common In every pages__
+
+- Main Image
+<img src="assets/images/readme-images/main-image.jpg" alt="Main Image screenshot">
+
+- Navigation Bar
+<img src="assets/images/readme-images/navigation-bar.jpg" alt="Navigation screenshot">
+
+- Footer
+<img src="assets/images/readme-images/footer.jpg" alt="Footer screenshot">
+
+
+### __Home Page__
+
+- welcome section
+<img src="assets/images/readme-images/home-welcome.jpeg" alt="welcome section screenshot">
+- services section
+<img src="assets/images/readme-images/home-services.jpeg" alt="Service section screenshot">
+- Our Barnds section
+<img src="assets/images/readme-images/home-ourbrands.jpeg" alt="Brands section screenshot">
+- contact section
+<img src="assets/images/readme-images/home-contact.jpg" alt="Contact section screenshot">
+- Map
+<img src="assets/images/readme-images/home-map.jpeg" alt="Map section screenshot">
+
+### __Collection Page__
+
+- Gallery section
+
+<img src="assets/images/readme-images/collection.jpg" alt="Gallery section screenshot">
+
+### __About Us Page__
+
+- About us section
+<img src="assets/images/readme-images/about-us-paragraph.jpeg" alt="About us section screenshot">
+- Specialities section
+<img src="assets/images/readme-images/specialities.jpg" alt="Specialities section screenshot">
+
+### __Contact Page__
+
+- Contact Form section
+<img src="assets/images/readme-images/contact.jpg" alt="Contact form section screenshot">
