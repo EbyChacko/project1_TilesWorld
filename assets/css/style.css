@@ -17,7 +17,7 @@ body {
     background: center 100% /cover no-repeat;
     text-align: center;
     background-color: white;
-    background-image: url('../images/home-main.gif');
+    background-image: url('../images/home-main.webp');
 
 }
 
@@ -304,7 +304,7 @@ footer>p {
     background: center 100% /cover no-repeat;
     text-align: center;
     background-color: white;
-    background-image: url('../images/collection-main.gif');
+    background-image: url('../images/collection-main.webp');
 }
 
 .gallery {
@@ -544,41 +544,41 @@ fieldset {
     /* Home page main image in a small screen*/
     .home-image {
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         background: center 100% /cover no-repeat;
         text-align: center;
         background-color: white;
-        background-image: url('../images/home page with heading1.jpg');
+        background-image: url('../images/home page with heading1.webp');
     }
 
     /* contact page main image in a small screen */
     .contact-main-image {
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         background: center 100% /cover no-repeat;
         text-align: center;
         background-color: white;
-        background-image: url('../images/contact_small-main-image.gif');
+        background-image: url('../images/contact-main-small-image.webp');
     }
 
     /* about us page main image in a small screen */
     .about-us-main-image {
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         background: center 100% /cover no-repeat;
         text-align: center;
         background-color: white;
-        background-image: url('../images/about-us-small-main-image.gif');
+        background-image: url('../images/about-us-main-small-image.webp');
     }
 
     /* collection page main image in a small screen */
     .collection-main-image {
         width: 100%;
-        height: 60vh;
+        height: 80vh;
         background: center 100% /cover no-repeat;
         text-align: center;
         background-color: white;
-        background-image: url('../images/collection-main-small-image.gif');
+        background-image: url('../images/collection-main-small-image.webp');
     }
 
     .links {
