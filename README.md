@@ -156,6 +156,13 @@ To deploy a project I had to:
 * click `save` and page was deployed after auto-refresh.
 >  Site is published at https://ebychacko.github.io/project1_TilesWorld/
 
+## Future Maintainability
+
+To ensure future maintainability of our tiles shop website, we have taken several steps. 
+We have used a modular and component-based approach to our code, which makes it easier to update and modify specific parts of the website without affecting the entire codebase. 
+We have followed best practices for writing clean and readable code, which makes it easier for future developers to understand and modify the code.
+Organised HTML and CSS code into well-defined and commented sections
+
 ## Credits 
 
 * To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
