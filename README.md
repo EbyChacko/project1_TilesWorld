@@ -99,7 +99,6 @@ After the main image on the center of the page there is a navigation bar with 4 
  
  I tested on hardware devices such as: iphone, macbook, acer laptop etc.
 
-
 ### Validator Testing 
 
 - HTML
@@ -107,7 +106,41 @@ After the main image on the center of the page there is a navigation bar with 4 
 - CSS
   - No errors were found when passing through the official [(W3C CSS validator](https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Febychacko.github.io%2Fproject1_TilesWorld%2F&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en)
 
+### Accessability test
 
+I used WAWE web accessibility evaluation tool to check the accessibility of the website. 
+
+[Result](https://wave.webaim.org/report#/https://ebychacko.github.io/project1_TilesWorld/)
+
+<img src="assets/images/readme-images/wawe- accessibility-test-result.png" alt="WAWE accessibility test result">
+
+### Lighthouse
+
+I used Lighthouse within the Chrome Developer Tools to test the performance, accessibility, best practices and SEO of the website.
+
+#### __Desktop Results__
+
+All pages of the site are achieving a score above 90 across the 4 categories.
+- Home Page 
+<img src="assets/images/readme-images/light-house-report-home-desk.png" alt="lighthouse report for home page in desktop">
+- Collection Page
+<img src="assets/images/readme-images/light-house-report-collection-desk.png" alt="lighthouse report for collection page in desktop">
+- About Us Page
+<img src="assets/images/readme-images/light-house-report-about-desk.png" alt="lighthouse report for about-us page in desktop">
+- Contact Page
+<img src="assets/images/readme-images/light-house-report-contact-desk.png" alt="lighthouse report for contact page in desktop">
+
+#### __Mobile Results__
+
+All pages of the site are achieving a score above 90 across the 4 categories.
+- Home Page 
+<img src="assets/images/readme-images/light-house-report-home-mobile.png" alt="lighthouse report for home page in mobile">
+- Collection Page
+<img src="assets/images/readme-images/light-house-report-collection-mobile.png" alt="lighthouse report for collection page in mobile">
+- About Us Page
+<img src="assets/images/readme-images/light-house-report-about-mobile.png" alt="lighthouse report for about-us page in mobile">
+- Contact Page
+<img src="assets/images/readme-images/light-house-report-contact-mobile.png" alt="lighthouse report for contact page in mobile">
 
 ## Deployment
 
@@ -121,7 +154,7 @@ To deploy a project I had to:
 * select `Settings` and find GitHub Pages section on the left side bar.
 * from source select `Deploy from a branch` and then select `main` branch.
 * click `save` and page was deployed after auto-refresh.
->  Your site is published at https://ebychacko.github.io/project1_TilesWorld/
+>  Site is published at https://ebychacko.github.io/project1_TilesWorld/
 
 ## Credits 
 
@@ -149,6 +182,8 @@ To deploy a project I had to:
 * [unsplash.com](https://unsplash.com/)
 
 * [freepik.com](https://freepik.com/)
+
+* [pixabay.com](https://pixabay.com/)
 
 ## Screen Shots
 
