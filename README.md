@@ -163,6 +163,31 @@ We have used a modular and component-based approach to our code, which makes it 
 We have followed best practices for writing clean and readable code, which makes it easier for future developers to understand and modify the code.
 Organised HTML and CSS code into well-defined and commented sections
 
+## Errors
+
+### Fixed Errors
+
+Found a vertical scroll bar on the project progress. Take time to understatnd what is the problem with the code. Finaly I realised that the map-wrapper width 100% makes the vertical scrollbar.
+
+- <img src="assets/images/readme-images/vertical scrollbar.jpg" alt="Vertical Scroll Bar">
+
+### So I reduced the width to 95%. The problem solved.
+
+- <img src="assets/images/readme-images/no-vertical-scrollbar.jpg" alt=" No Vertical Scroll Bar">
+
+
+### Not Fixed Errors
+
+
+I used number type input for the mobile number. I found two up and down arrows on the right corner of the input field. If we tap the up arrow it shows a positive value 1 and if we continuesly tap on the up arrow it increase the value by 1 for each tap.
+I the same way if tap the down arrow it shows a -1 and if we tap continuesly, it will reduce the value by 1.
+
+<img src="assets/images/readme-images/form-mobile-number.jpg" width="400px" alt="Mobile Number input">
+
+I tried to find an input type that accepts the mobile number that have no up and down arrows. I got the `tel` type. But when I used the `tel` type, it can accept the letters from the user. it may cause gather wrong information from the user.
+
+So I decided to stick with the `number` type.
+
 ## Credits 
 
 * To complete this project I used Code Institute student template: [gitpod full template](https://github.com/Code-Institute-Org/gitpod-full-template)
