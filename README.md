@@ -65,6 +65,20 @@ After the main image on the center of the page there is a navigation bar with 4 
   - This page will allow the user to get sThe contact details of the Tile's world as well they can send their contact details and some messages to the Tile's world.
   - The user will be asked to submit their full name, mobile number and email address. 
 
+
+## Wireframes
+
+I used the photoshop 2023 for creating the wireframe for this project.
+
+<img src="assets/images/readme-images/wireframe-home.jpg" alt="wireframe-home" width="300px">
+<img src="assets/images/readme-images/wireframe-collection.jpg" alt="wireframe-collection" width="300px">
+
+<img src="assets/images/readme-images/wireframe-about-us.jpg" alt="wireframe-about us" width="300px">
+<img src="assets/images/readme-images/wireframe-contact.jpg" alt="wireframe-contact" width="300px">
+
+
+
+
 ## Technologies used
 
 ### HTML5
@@ -80,10 +94,9 @@ After the main image on the center of the page there is a navigation bar with 4 
 ### GitHub
 * As a software hosting platform to keep project in a remote location.
 
-### Wireframe.cc
-* As a wireframing tool.
-
 ### Photoshop 2023
+
+* As wireframing tool
 * As an image editor.
 
 
@@ -198,10 +211,9 @@ So I decided to stick with the `number` type.
 * [chatGPT](https://chat.openai.com/)
 
 ### Content:
-*  welcome paragraph & About us :  [celtictiles.ie](https://www.celtictiles.ie/)
-*  welcome paragraph & About us :  [PAM Tiles](https://pamtilespark.com/)
-*  Our service :  [PAM Tiles](https://pamtilespark.com/)
-*  Ourspecialities :  [Perplexity AI](https://www.perplexity.ai/)
+*  Welcome paragraph & About us :  [celtictiles.ie](https://www.celtictiles.ie/)
+*  Welcome paragraph, Our service & About us :  [PAM Tiles](https://pamtilespark.com/)
+*  Our specialities :  [Perplexity AI](https://www.perplexity.ai/)
 
 ### Map location:
 * [coders coffee house](https://bit.ly/2QVfkiy)
