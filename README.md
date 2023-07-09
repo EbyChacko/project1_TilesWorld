@@ -216,7 +216,7 @@ So I decided to stick with the `number` type.
 *  Our specialities :  [Perplexity AI](https://www.perplexity.ai/)
 
 ### Map location:
-* [coders coffee house](https://bit.ly/2QVfkiy)
+* [maps.ie](https://www.maps.ie/create-google-map/)
 
 ### Map:
 * [Google maps](https://www.google.com/maps?ll=52.059441,-9.511501&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=7306226195280410511)
