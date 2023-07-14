@@ -472,7 +472,7 @@ fieldset {
     padding: 10px;
     border: none;
     border-radius: 10px;
-    ;
+    color:#2b022c;
 }
 
 .block-label:hover {
@@ -496,7 +496,6 @@ fieldset {
     font-size: 16px;
     border: none;
     cursor: pointer;
-    /* float: right; */
     right: 0px;
     width:100%;
     
@@ -522,7 +521,7 @@ fieldset {
     background-color: rgba(216, 216, 216, 0.85);
 }
 .menu-dropdown-content a:hover {
-    background-color:rgba(197, 197, 197, 0.85);
+    background-color:rgba(252, 123, 254, 0.85);
 }
 
 .menu-dropdown:hover .menu-dropdown-content {
@@ -530,7 +529,7 @@ fieldset {
 }
 
 .menu-dropdown:hover .menu-dropbtn {
-    background-color:#f052f5;
+    background-color:#b007e8;
 }
 
 @media (max-width:1200px) {
