@@ -221,6 +221,9 @@ So I decided to stick with the `number` type.
 ### Map:
 * [Google maps](https://www.google.com/maps?ll=52.059441,-9.511501&z=16&t=m&hl=en-US&gl=US&mapclient=embed&cid=7306226195280410511)
 
+### Icons:
+* [Font Owsome version 4.7.0](https://fontawesome.com/v4/icons/)
+
 ### Images:
 
 * [unsplash.com](https://unsplash.com/)
