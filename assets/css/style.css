@@ -356,6 +356,7 @@ footer>p {
 .image-row {
     /* Contain the images in the about-us section */
     text-align: center;
+    padding-bottom: 40px;
 }
 
 .image-box {
@@ -461,6 +462,7 @@ fieldset {
     background-color: aliceblue;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     border-radius: 10px;
+    width:300px;
     margin: 10px;
     padding: 10px;
 }
