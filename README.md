@@ -69,11 +69,21 @@ After the main image on the center of the page there is a navigation bar with 4 
 ## Wireframes
 
 I used the photoshop 2023 for creating the wireframe for this project.
+- Home page
 
 <img src="assets/images/readme-images/wireframe-home.jpg" alt="wireframe-home" width="300px">
+
+- Collection page
+
+
 <img src="assets/images/readme-images/wireframe-collection.jpg" alt="wireframe-collection" width="300px">
 
+- About Us page
+
 <img src="assets/images/readme-images/wireframe-about-us.jpg" alt="wireframe-about us" width="300px">
+
+- Contact page
+
 <img src="assets/images/readme-images/wireframe-contact.jpg" alt="wireframe-contact" width="300px">
 
 
@@ -135,6 +145,8 @@ I used Lighthouse within the Chrome Developer Tools to test the performance, acc
 
 All pages of the site are achieving a score above 90 across the 4 categories.
 - Home Page 
+
+
 <img src="assets/images/readme-images/light-house-report-home-desk.png" alt="lighthouse report for home page in desktop">
 - Collection Page
 <img src="assets/images/readme-images/light-house-report-collection-desk.png" alt="lighthouse report for collection page in desktop">
@@ -155,26 +167,7 @@ All pages of the site are achieving a score above 90 across the 4 categories.
 - Contact Page
 <img src="assets/images/readme-images/light-house-report-contact-mobile.png" alt="lighthouse report for contact page in mobile">
 
-## Deployment
-
-The project was deployed on GitHub Pages. I used VS Code as a development environment where I commited all changes to git version control system.
-
-I used push command in VS Code to save changes into GitHub.
-
-To deploy a project I had to:
-
-* Log in to GitHub and click on repository to deploy ([project1_TilesWorld](https://github.com/EbyChacko/project1_TilesWorld.git))
-* select `Settings` and find GitHub Pages section on the left side bar.
-* from source select `Deploy from a branch` and then select `main` branch.
-* click `save` and page was deployed after auto-refresh.
->  Site is published at https://ebychacko.github.io/project1_TilesWorld/
-
-## Future Maintainability
-
-To ensure future maintainability of our tiles shop website, we have taken several steps. 
-We have used a modular and component-based approach to our code, which makes it easier to update and modify specific parts of the website without affecting the entire codebase. 
-We have followed best practices for writing clean and readable code, which makes it easier for future developers to understand and modify the code.
-Organised HTML and CSS code into well-defined and commented sections
+## __Manual Testing__
 
 ## Errors
 
@@ -200,6 +193,38 @@ I the same way if tap the down arrow it shows a -1 and if we tap continuesly, it
 I tried to find an input type that accepts the mobile number that have no up and down arrows. I got the `tel` type. But when I used the `tel` type, it can accept the letters from the user. it may cause gather wrong information from the user.
 
 So I decided to stick with the `number` type.
+
+### Input and Result
+I tested the form without adding any details, it shows `Plaese fill in this field`
+
+<img src="assets/images/readme-images/form-without-input.png" width="400px" alt="form Without input">
+
+I tested the form by putting user details. The result was everything werked perfect.
+
+<img src="assets/images/readme-images/form-input.png" width="400px" alt="form input">
+
+<img src="assets/images/readme-images/form-result.png" width="400px" alt="form input result">
+
+## Deployment
+
+The project was deployed on GitHub Pages. I used VS Code as a development environment where I commited all changes to git version control system.
+
+I used push command in VS Code to save changes into GitHub.
+
+To deploy a project I had to:
+
+* Log in to GitHub and click on repository to deploy ([project1_TilesWorld](https://github.com/EbyChacko/project1_TilesWorld.git))
+* select `Settings` and find GitHub Pages section on the left side bar.
+* from source select `Deploy from a branch` and then select `main` branch.
+* click `save` and page was deployed after auto-refresh.
+>  Site is published at https://ebychacko.github.io/project1_TilesWorld/
+
+## Future Maintainability
+
+To ensure future maintainability of our tiles shop website, we have taken several steps. 
+We have used a modular and component-based approach to our code, which makes it easier to update and modify specific parts of the website without affecting the entire codebase. 
+We have followed best practices for writing clean and readable code, which makes it easier for future developers to understand and modify the code.
+Organised HTML and CSS code into well-defined and commented sections
 
 ## Credits 
 
