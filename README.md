@@ -41,29 +41,53 @@ After the main image on the center of the page there is a navigation bar with 4 
 
 - __Home__
 
-  - Welcome :
+ - Welcome :
   This section contains a brief description about the Tile's World
 
-  - Services : In this section the user can find the main servises provided by the tile's world.
+<img src="assets/images/readme-images/home-welcome.jpeg" alt="welcome section screenshot">
+
+- Services : In this section the user can find the main servises provided by the tile's world.
+
+<img src="assets/images/readme-images/home-services.jpeg" alt="Service section screenshot">
+
   - Our Brands : This section contais all the mai brands that are associated with the tile's world.
+
+
+<img src="assets/images/readme-images/home-ourbrands.jpeg" alt="Brands section screenshot">
+
   - Contact: This section provides the user all kinds of contact details including mobile number, mail id and address. I this section inclided the working hours as well.
+
+<img src="assets/images/readme-images/home-contact.jpg" alt="Contact section screenshot">
+
   - Map : This Section included a map if the customer wants to locate the Tile's World showroom.
+
+  <img src="assets/images/readme-images/home-map.jpeg" alt="Map section screenshot">
+
 
 - __Collections__
 
   - This section will allow the user to see the collections available in the Tile's World in the form of images. If the user wants to view the image large, they can just click on the image and the image will open in a deferent tab so that they can view it large.
-  - This section will be updated as the collections in the Tile's World changes when the  new collection arrives. 
+  - This section can be updated as the collections in the Tile's World changes when the new collection arrives. 
+
+  <img src="assets/images/readme-images/collection.jpg" alt="Gallery section screenshot">
 
 - __About Us__ 
 
   - This Section is a gives a brief idea about the tile's World and it's history
-  - Our Apecialities : I this section the user can find the main specialities of the tile's world and its team.
+
+<img src="assets/images/readme-images/about-us-paragraph.jpeg" alt="About us section screenshot">
+
+  - Our Specialities : I this section the user can find the main specialities of the tile's world and its team.
+
+  <img src="assets/images/readme-images/specialities.jpg" alt="Specialities section screenshot">
+
   - In this page we included the same our brands section and contact section.
 
 - __Contact__
 
   - This page will allow the user to get sThe contact details of the Tile's world as well they can send their contact details and some messages to the Tile's world.
   - The user will be asked to submit their full name, mobile number and email address. 
+  <img src="assets/images/readme-images/contact.jpg" alt="Contact form section screenshot">
 
 
 ## Wireframes
@@ -90,6 +114,8 @@ I used the photoshop 2023 for creating the wireframe for this project.
 
 
 ## Technologies used
+
+The site was created using the Visual Studio code editor and pushed to github to the remote repository https://github.com/EbyChacko/project1_TilesWorld.git
 
 ### HTML5
 * As a structure language.
@@ -182,7 +208,7 @@ Found a vertical scroll bar on the project progress. Take time to understatnd wh
 - <img src="assets/images/readme-images/no-vertical-scrollbar.jpg" alt=" No Vertical Scroll Bar">
 
 
-### Not Fixed Errors
+### Unfixed Errors
 
 
 I used number type input for the mobile number. I found two up and down arrows on the right corner of the input field. If we tap the up arrow it shows a positive value 1 and if we continuesly tap on the up arrow it increase the value by 1 for each tap.
